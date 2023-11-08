@@ -171,10 +171,8 @@ const ChatComponent: React.FC = () => {
       </Navbar>
       <div className="min-h-0 flex bg-default-background grow shrink basis-0 w-full items-start">
         <div className="flex border-r border-solid border-neutral-border pt-6 pr-6 pb-6 pl-6 h-full flex-col gap-4 items-start">
-          
           <div className="flex-none h-10 w-full  ">
             {/* <label>Select a value:</label> */}
-         
             <select
               value={selectedModel}
               onChange={handleSelectChange}
